@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .myFlexContainer{
+        display:flex;
+        flex-direction: column;
+        .myDivFormulario{
+            .myForm{
+                background-color: white;
+                padding: 5px;
+                border-radius: 10px;
+                .myContenedorTitulo{
+                    .myInputTitulo{
+                        border-radius: 5px;
+                        width: 100%;
+                    }
+                }
+                .myContenedorPublicacion{
+                    .myTextareaPublicacion{
+                        resize: none;
+                        border-radius: 5px;
+                        width: 100%;
+                    }
+                }
+                .myBtnInput{
+                    padding: 5px;
+                    background-color: black;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 15px;
+                }
+            }
+        }
+        .myPublicacionesRegistro{
+            display:flex;
+            margin-top: 10px;
+            flex-direction: column;
+            .myContenedorDePost{
+                background-color: white;
+                border-radius: 10px;
+                margin-top: 10px;
+                padding: 5px;
+                display:flex;
+                flex-direction: column;
+                width: 100%;
+                .myContenedorRegistroTitulo{
+                    font-weight: 800;
+                }
+                .myBtnEditar{
+                    padding: 2px;
+                    background-color: black;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 15px;
+                }
+                .myBtnEliminar{
+                    margin: 5px;
+                    padding: 2px;
+                    background-color: black;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

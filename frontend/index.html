@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="apple-touch-icon" sizes="76x76" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="./index.js"></script>
+    <title>Reto 1</title>
+</head>
+<body>
+    
+
+    <div class="container">
+      <div class="row myFlexSpace">
+        <!-- Nav  Brayan-->
+    <navbar class="sticky-top">
+      <div class="container navBar">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-2">
+          <div class="col-md-3 mb-2 mb-md-0">
+            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                <img src="favicon-32x32.png" height="40" alt="">
+            </a>
+            </div>
+
+            <div class="mySearchContainer">
+                
+                <input type="search" id="inputBusqueda" class="col-md-3 mb-2 mb-md-0 justify-content-center" placeholder="&#128269; Search..." aria-label="Search">
+            </div>
+
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-light">Log in</button>
+                <button type="button" class="btn btn-outline-primary me-2">Create account</button>
+            </div>
+        </header>
+      </div>
+    </navbar>
+    <!-- Left side Angel -->
+        <div class="aside1 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+          <div class="container">
+              <h4>DEV Community is a community of 1,214,867 amazing developers</h4>
+              <p>We're a place where coders share, stay up-to-date and grow their careers.</p>
+              <button class="createacc">Create account</button>
+              <button class="login">Log in</button>
+          </div>
+          <ul class="aside1list">
+              <li class="home">
+                  <a href="#">🏠 Home</a>
+              </li>
+              <li class="reading">
+                  <a href="#"> 🗃️ Reading List</a>
+              </li>
+              <li class="podcasts">
+                  <a href="#">🎙️ Podcasts</a>
+              </li>
+              <li class="videos">
+                  <a href="#">📹 Videos</a>
+              </li>
+              <li class="tags">
+                  <a href="#">🏷️ Tags</a>
+              </li>
+              <li class="faq">
+                  <a href="#">💡 FAQ</a>
+              </li>
+              <li class="forem">
+                  <a href="#">🛍️ Forem Shop</a>
+              </li>
+              <li class="advertise">
+                  <a href="#">❤️ Advertise on DEV</a>
+              </li>
+              <li class="about">
+                  <a href="#">About</a>
+              </li>
+              <li class="contact">
+                  <a href="#">📯 Contact</a>
+              </li>
+              <li class="guides">
+                  <a href="#">📖 Guides</a>
+              </li>
+              <li class="software">
+                  <a href="#">🤔 Software comparisons</a>
+              </li>
+          </ul>
+          <div class="other">
+              <h6>Other</h6>
+              <ul class="otherlist">
+                  <li class="code"><a href="#">👍 Code of Conduct</a></li>
+                  <li class="privacy"><a href="#">🤓 Privacy Policy</a></li>
+                  <li class="terms"><a href="#">👀 Terms of use</a></li>
+              </ul>
+          </div>
+          <div class="flex justify-start mb-4">
+            <a href="https://twitter.com/thepracticaldev" target="_blank" class="c-link c-link--icon-alone c-link--block " rel="noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="aqlw6yup3tbf2prm0hbf6f5oqn12qm18" class="crayons-icon c-link__icon"><title id="aqlw6yup3tbf2prm0hbf6f5oqn12qm18">Twitter</title>
+            <path d="M22.162 5.656a8.383 8.383 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.211 4.211 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.395 8.395 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.495 8.495 0 002.087-2.165l-.001-.001z" fill="#65bbf2"></path>
+        </svg>
+        
+          </a>
+          <a href="https://facebook.com/thepracticaldev" target="_blank" class="c-link c-link--icon-alone c-link--block " rel="noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="aokl0l9fq6vms58hyxgivblarieuaw5b" class="crayons-icon c-link__icon"><title id="aokl0l9fq6vms58hyxgivblarieuaw5b">Facebook</title>
+            <path d="M15.402 21v-6.966h2.333l.349-2.708h-2.682V9.598c0-.784.218-1.319 1.342-1.319h1.434V5.857a19.188 19.188 0 00-2.09-.107c-2.067 0-3.482 1.262-3.482 3.58v1.996h-2.338v2.708h2.338V21H4a1 1 0 01-1-1V4a1 1 0 011-1h16a1 1 0 011 1v16a1 1 0 01-1 1h-4.598z"></path>
+        </svg>
+        
+          </a>
+          <a href="https://github.com/forem" target="_blank" class="c-link c-link--icon-alone c-link--block " rel="noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="aa9q6yi4qhrisbyagc6vbfvbdfmm6rah" class="crayons-icon c-link__icon"><title id="aa9q6yi4qhrisbyagc6vbfvbdfmm6rah">Github</title>
+            <path d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 006.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 012.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0022 12c0-5.525-4.475-10-10-10z"></path>
+        </svg>
+        
+          </a>
+          <a href="https://instagram.com/thepracticaldev" target="_blank" class="c-link c-link--icon-alone c-link--block " rel="noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="aivbc9e40umcmwg6zmpbugluvlsovpcp" class="crayons-icon c-link__icon"><title id="aivbc9e40umcmwg6zmpbugluvlsovpcp">Instagram</title>
+            <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 01-1.153 1.772c-.5.508-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 01-1.772-1.153 4.904 4.904 0 01-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 011.153-1.772A4.897 4.897 0 015.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm6.5-.25a1.25 1.25 0 10-2.5 0 1.25 1.25 0 002.5 0zM12 9a3 3 0 110 6 3 3 0 010-6z"></path>
+        </svg>
+        
+          </a>
+          <a href="https://twitch.com/thepracticaldev" target="_blank" class="c-link c-link--icon-alone c-link--block " rel="noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="aalw862cboloyt277i9kqmoyycbo5rbl" class="crayons-icon c-link__icon"><title id="aalw862cboloyt277i9kqmoyycbo5rbl">Twitch</title>
+            <path d="M4.3 3H21v11.7l-4.7 4.7h-3.9l-2.5 2.4H7v-2.4H3V6.2L4.3 3zM5 17.4h4v2.4h.095l2.5-2.4h3.877L19 13.872V5H5v12.4zM15 8h2v4.7h-2V8zm0 0h2v4.7h-2V8zm-5 0h2v4.7h-2V8z"></path>
+        </svg>
+        
+          </a>
+          <a href="https://fosstodon.org/@thepracticaldev" target="_blank" class="c-link c-link--icon-alone c-link--block " rel="noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="a7o3qjessxycahx5zmhu7t2eezxmua3t" class="crayons-icon c-link__icon"><title id="a7o3qjessxycahx5zmhu7t2eezxmua3t">Mastodon</title>
+            <path d="M21.258 13.99c-.274 1.41-2.456 2.955-4.962 3.254-1.306.156-2.593.3-3.965.236-2.243-.103-4.014-.535-4.014-.535 0 .218.014.426.04.62.292 2.215 2.196 2.347 4 2.41 1.82.062 3.44-.45 3.44-.45l.076 1.646s-1.274.684-3.542.81c-1.25.068-2.803-.032-4.612-.51-3.923-1.039-4.598-5.22-4.701-9.464-.031-1.26-.012-2.447-.012-3.44 0-4.34 2.843-5.611 2.843-5.611 1.433-.658 3.892-.935 6.45-.956h.062c2.557.02 5.018.298 6.451.956 0 0 2.843 1.272 2.843 5.61 0 0 .036 3.201-.397 5.424zm-2.956-5.087c0-1.074-.273-1.927-.822-2.558-.567-.631-1.308-.955-2.229-.955-1.065 0-1.871.41-2.405 1.228l-.518.87-.519-.87C11.276 5.8 10.47 5.39 9.405 5.39c-.921 0-1.663.324-2.229.955-.549.631-.822 1.484-.822 2.558v5.253h2.081V9.057c0-1.075.452-1.62 1.357-1.62 1 0 1.501.647 1.501 1.927v2.79h2.07v-2.79c0-1.28.5-1.927 1.5-1.927.905 0 1.358.545 1.358 1.62v5.1h2.08V8.902l.001.001z"></path>
+        </svg>
+        
+          </a>
+        
+        </div>
+          <div class="hashtags">
+              <h6>Popular tags</h6>
+              <div class="poplist">
+                  <p>#webdev</p>
+                  <p>#javascript</p>
+                  <p>#programming</p>
+                  <p>#beginners</p>
+                  <p>#tutorial</p>
+                  <p>#react</p>
+                  <p>#python</p>
+                  <p>#devops</p>
+                  <p>#productivity</p>
+                  <p>#opensource</p>
+              </div>
+          </div>
+          <div class="community">
+              <p>DEV community</p>
+              <img class="modimg" src="https://res.cloudinary.com/practicaldev/image/fetch/s--tUXa-lQ2--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l0et407b181thswgfd71.jpg" alt="Moderator IMG">
+              <p><a href="#">Fill out this sourvey</a> and help us moderate our community by becoming a tag moderator here at DEV.
+              </p>
+          </div>
+          <div class="information">
+              <p><a href="#">DEV Community</a>
+                  A constructive and inclusive social network for software developers. With you every step of your journey.
+              </p>
+              <p>Built on <a href="#">Forem</a>
+                  — the <a href="#">open source</a>
+                  software that powers <a href="#">DEV</a>
+                  and other inclusive communities.
+              </p>
+              <p>
+                  Made with love and <a href="#">Ruby on Rails.</a>
+                  DEV Community © 2016 - 2023.
+              </p>
+          </div>
+        </div>
+
+    <!-- Posts Alexis -->
+        <main class="col-sm-12 col-md-8 col-lg-6 col-xl-6 col-xxl-6">    
+            Filtar por: <select name="" id="selectFiltroFecha">
+                <option value="todas">Todas</option>
+                <option value="semana">Semana</option>
+                <option value="mes">Mes</option>
+                <option value="ano">Año</option>
+            </select>    
+              <article >
+                  <div class=" row-12 myPost">
+                      <p class="myDEVLetters">DEV Community</p>
+                      <img id="imagenDEV" src="./img/ImagenDev.png" alt="logo Dev amarillo" />
+                      <br />
+                      <br />
+                      <h3> Need to stay up-to-date with the most relevant trends in software? </h3>
+                      <p> Look no further.</p>
+                      <p> You can do so much more once you create your account. Follow the devs and topics you care about, and keep up-to-date. </p>
+                      <a href="liga"> <h3> Start now </h3> </a>
+                      <p> Happy coding ❤️ </p>
+                  </div>
+              </article>
+              <br />
+
+  <!-- Publicación -->
+  <div class="myFlexContainer">
+    <div class="myDivFormulario">
+        <form class="myForm">
+            <div class="myContenedorTitulo">
+                <div class="myTituloLetra">
+                    Título
+                </div>
+                <input 
+                class="myInputTitulo" 
+                name="Titulo" 
+                type="text">
+            </div>
+            <div class="myContenedorPublicacion">
+                <div class="myPublicacionLetra">
+                Publicación 
+                </div>
+                <textarea 
+                    class="myTextareaPublicacion"
+                    id="myTextareaPublicacionID"
+                    name="publicacion"></textarea>
+            </div>
+            <button class="myBtnInput" name="btnInput" type="submit"> Publicar</button>
+        </form>
+    </div> 
+
+    <div class="myPublicacionesRegistro">
+       <div class="myPublicacionesRegistroChicas">
+
+       </div>
+    </div>
+  </div>
+  <!-- Fin de Publicación -->
+        </main>
+      
+    <!-- Rigth side Kevin-->
+        <div class="discussion-container col-lg-3 col-xl-3 col-xxl-3">
+                
+                <div class="discussion-box" id="discuss">
+                    <div class="discussion-header">
+                        <h3>#discuss</h3>
+                        <p>Discussion threads targeting the whole community</p>
+                    </div>
+
+                    <div class="discussion-thread">
+                        <h3>Open Source Impact: Reflecting on 2023 Contributions</h3>
+                        <p>2 comments</p>
+                    </div>
+
+                    <div class="discussion-thread">
+                        <h3>🎬🍿What's Your Favorite Holiday Film?</h3>
+                        <p>12 comments</p>
+                    </div>
+
+                    <div class="discussion-thread">
+                        <h3>Is tech boring lately or is it me?? 😐</h3>
+                        <p>7 comments</p>
+                    </div>
+
+                    <div class="discussion-thread">
+                        <h3>Meme Monday</h3>
+                        <p>2 comments</p>
+                    </div>
+
+                    <div class="discussion-thread">
+                        <h3>Frontend devs, what are your thoughts on WordPress? Have you used it in your corporate jobs?</h3>
+                        <p>27 comments</p>
+                    </div>
+                </div>
+
+            
+                <div class="discussion-box" id="watercooler">
+                    <div class="discussion-header">
+                        <h2>#watercooler</h2>
+                        <p>Light, and off-topic conversation.</p>
+                    </div>
+
+                    <div class="discussion-thread">
+                        <h3>Is tech boring lately or is it me?? 😐</h3>
+                        <p>7 comments</p>
+                    </div>
+
+                    <div class="discussion-thread">
+                        <h3>Meme Monday</h3>
+                        <p>2 comments</p>
+                    </div>
+
+                    <div class="discussion-thread">
+                        <h3>Music Monday — What are you listening to? (Beats Edition)</h3>
+                        <p>11 comments</p>
+                    </div>
+
+                    <div class="discussion-thread">
+                        <h3>Caption This! 🤔💭</h3>
+                        <p>7 comments</p>
+                    </div>
+                </div>
+
+                
+                <div class="transparent-box">
+                    <div class="transparent-header">
+                        <h2>Trending Guides/Resources</h2>
+                    </div>
+
+                    <p>Say Goodbye to Docker Volumes 👋</p>
+                    <p>19 GitHub Repositories Every Developer Should Bookmark 📚👍</p>
+                    <p>50 ways to bring in extra cash as a developer 💰</p>
+                    <p>🔝 10 Open-Source Trending GitHub Repositories 📈</p>
+                    <p>Why you should never use an UUID as the primary key in SQL Databases</p>
+                    <p>12 Senior Developer Traits Juniors Need To Master 🔥</p>
+                    <p>Explaining Kubernetes To My Uber Driver</p>
+                    <p>My 3 Rules for Documenting Code</p>
+                    <p>What's new in Angular 17</p>
+                    <p>Five tools to add to your K8s cluster</p>
+                    <p>Develop the right thing every time and become a 10x engineer 🏆: The art of writing RFCs 🥋</p>
+                    <p>🎁 Shortcut to Find Open Source Projects 100x faster</p>
+                    <p>Explaining SSH to my Uber Driver</p>
+                    <p>🔥14 Excellent Open-source Projects for Developers🚀</p>
+                    <p>Building a Microservices Cloud Backend using Go and PostgreSQL</p>
+                    <p>Monorepo, Poly-repo, or No Repo at all?</p>
+                    <p>⚡⚡ Level Up Your Cloud Experience with These 7 Open Source Projects 🌩️</p>
+                    <p>How To Build a Web Application with HTMX and Go</p>
+                    <p>Best Way to Learn Web Development</p>
+                    <a class="crayons-link crayons-link--contentful" href="/therubberduckiee/explaining-kubernetes-to-my-uber-driver-4f60">
+                        Explaining Kubernetes To My Uber Driver
+                    </a>
+                    <p>Seaborn Multiple Plots</p>
+
+                    <h4>Recently Queried</h4>
+                    <p>React Native Build APK</p>
+                    <p>Javascript Set CSS</p>
+                    <p>Flask MongoDB</p>
+                    <p>Opengl Python</p>
+                    <p>GCC for Windows</p>
+                    <p>Production Environment</p>
+                    <p>Git Revert File</p>
+                    <p>Clean Architecture</p>
+                    <p>JavaScript Sort Array</p>
+                    <p>Color Palette Generator From Image</p>
+                    <p>Git Revert Pushed Commit</p>
+                    <p>Windows Keyboard on Mac</p>
+                    <p>JavaScript Playground</p>
+                    <p>Supertest Jest</p>
+                    <p>Stop Node Server</p>
+                    <p>Fetch API</p>
+                    <p>Object.entries Javascript</p>
+                    <p>Haiku Checker</p>
+                    <p>Best VSCode Themes</p>
+                    
+                </div>
+
+                <div class="scroll-bar"></div>
+        </div>
+      </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

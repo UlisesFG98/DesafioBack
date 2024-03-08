@@ -1,0 +1,67 @@
+main {
+    background-color: rgb(247, 240, 240);
+    article {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .myPost {
+            width: 100vh;
+            border-radius: 5px;
+            padding: 0 3%;
+            .myDEVLetters{
+                color:gray;
+                font-size: smaller;
+            }
+            #imagenDEV {
+                width: 100%;
+            }
+        }
+    }
+    
+    article {
+        .usuarioPublicacion{
+            display:flex;
+            .imagenProgramador{
+                margin: 4% ;
+                margin-bottom: 2%;
+                height: 50px;
+                width: 70px;
+                border-radius: 50%;
+            } 
+            .textoUsuario{
+                margin-left: 10px;
+            }
+            .textoFechaPublicacion{
+                color:gray;
+                margin: 1% 0% 0% 10px;
+            }
+        }
+        
+        
+        
+        .myContainerIconsEtc{
+            display: flex;
+            flex-wrap: wrap;
+            #nombrePublicacion{
+                margin-left: 4%;
+            }
+            #fondoVerde {
+                width: 65px;
+                background-color: rgb(208, 247, 208);
+                margin-left: 4%;
+            }
+            .iconsContainer {
+                display: flex;
+                flex-wrap: wrap;
+                flex-basis: content;
+                margin: 0 4% 4% 8%;
+            } 
+            .tiempoLeido{
+                font-size: 14px;
+                margin-left: 15%;
+                width: max-content;
+            }
+        }    
+    }
+}
