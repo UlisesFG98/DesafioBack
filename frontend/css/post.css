@@ -1,0 +1,151 @@
+
+/* styles.css */
+
+/* Estilos para el contenedor de la lista de publicaciones */
+#postsList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 35px;
+}
+
+/* Estilos para cada publicación */
+.post {
+  background-color: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+}
+
+/* Estilos para el título de la publicación */
+.post h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Estilos para el cuerpo de la publicación */
+.post p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Estilos para el enlace en el cuerpo de la publicación */
+.post a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el botón de acción */
+.action-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.edit-button, .delete-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover, .delete-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Agrega estos estilos para ocultar el menú desplegable inicialmente */
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para el botón de puntos */
+.toggle-button {
+  cursor: pointer;
+}
+
+/* Estilos para el contenedor del menú desplegable */
+.dropdown-container {
+  position: relative; /* Cambiado de absolute a relative */
+  display: inline-block; /* Añadido */
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%; /* Añadido */
+  right: 0; /* Añadido */
+}
+
+/* Estilos para el enlace dentro del menú desplegable */
+.dropdown-menu .action-button {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  text-align: center;
+}
+
+/* Mostrar el menú desplegable cuando se pasa el ratón sobre el botón */
+.dropdown-container:hover .dropdown-menu {
+  display: block;
+}
+/* Estilos para el botón de acción */
+.action-button {
+  background-color: transparent; /* Cambiado a transparente */
+  color: #8996a4; /* Color azul */
+  border: none;
+  padding: 0; /* Eliminar el relleno */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.action-button:hover {
+  color: #8996a4; /* Color azul más oscuro al pasar el cursor */
+}
+
+.botonesfinales{
+  align-items: center;
+}

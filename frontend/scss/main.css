@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .navBar {
+  background-color: white;
+  z-index: 10;
+}
+body .myFlexSpace {
+  justify-content: space-between;
+}
+
+main {
+  background-color: rgb(247, 240, 240);
+}
+main article {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main article .myPost {
+  width: 100vh;
+  border-radius: 5px;
+  padding: 0 3%;
+}
+main article .myPost .myDEVLetters {
+  color: gray;
+  font-size: smaller;
+}
+main article .myPost #imagenDEV {
+  width: 100%;
+}
+main article .usuarioPublicacion {
+  display: flex;
+}
+main article .usuarioPublicacion .imagenProgramador {
+  margin: 4%;
+  margin-bottom: 2%;
+  height: 50px;
+  width: 70px;
+  border-radius: 50%;
+}
+main article .usuarioPublicacion .textoUsuario {
+  margin-left: 10px;
+}
+main article .usuarioPublicacion .textoFechaPublicacion {
+  color: gray;
+  margin: 1% 0% 0% 10px;
+}
+main article .myContainerIconsEtc {
+  display: flex;
+  flex-wrap: wrap;
+}
+main article .myContainerIconsEtc #nombrePublicacion {
+  margin-left: 4%;
+}
+main article .myContainerIconsEtc #fondoVerde {
+  width: 65px;
+  background-color: rgb(208, 247, 208);
+  margin-left: 4%;
+}
+main article .myContainerIconsEtc .iconsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: content;
+  margin: 0 4% 4% 8%;
+}
+main article .myContainerIconsEtc .tiempoLeido {
+  font-size: 14px;
+  margin-left: 15%;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+body .aside1 {
+  width: 15%;
+  margin: 10px;
+}
+body .aside1 .container {
+  border-radius: 5px;
+  padding: 13px;
+  margin: 10px;
+}
+body .aside1 .container .createacc {
+  color: rgb(59, 73, 223);
+  background-color: white;
+  border-radius: 5px;
+  border-color: rgb(59, 73, 223);
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+body .aside1 .container .createacc:hover {
+  background-color: rgb(59, 73, 223);
+  color: white;
+  text-decoration: underline;
+}
+body .aside1 .container .login {
+  background-color: white;
+  border-color: white;
+  border-radius: 5px;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+}
+body .aside1 .container .login:hover {
+  background-color: rgba(182, 188, 239, 0.694);
+  text-decoration: underline;
+}
+body .aside1 .aside1list {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px;
+}
+body .aside1 .aside1list li > a {
+  text-decoration: none;
+}
+body .aside1 .aside1list .home {
+  list-style-image: url();
+}
+body .aside1 .aside1list :hover {
+  background-color: rgba(182, 188, 239, 0.694);
+  text-decoration: underline;
+}
+body .aside1 .other {
+  margin: 10px;
+}
+body .aside1 .other li > a {
+  text-decoration: none;
+}
+body .aside1 .other .otherlist {
+  list-style: none;
+  padding-left: 0;
+}
+body .aside1 .other .otherlist :hover {
+  background-color: rgba(182, 188, 239, 0.694);
+  text-decoration: underline;
+}
+body .aside1 .hashtags {
+  margin: 10px;
+}
+body .aside1 .hashtags .poplist {
+  width: 100%;
+  height: 450px;
+}
+body .aside1 .community {
+  border-radius: 5px;
+  padding: 13px;
+  margin: 10px;
+}
+body .aside1 .community .modimg {
+  width: 100%;
+  height: 50%;
+  border-radius: 5px;
+}
+body .aside1 .information {
+  margin: 10px;
+}
+
+body .mySearchContainer {
+  margin-bottom: 6px;
+}
+body .mySearchContainer #inputBusqueda {
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-left: 10px;
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .myFlexContainer {
+  display: flex;
+  flex-direction: column;
+}
+body .myFlexContainer .myDivFormulario .myForm {
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+body .myFlexContainer .myDivFormulario .myForm .myContenedorTitulo .myInputTitulo {
+  border-radius: 5px;
+  width: 100%;
+}
+body .myFlexContainer .myDivFormulario .myForm .myContenedorPublicacion .myTextareaPublicacion {
+  resize: none;
+  border-radius: 5px;
+  width: 100%;
+}
+body .myFlexContainer .myDivFormulario .myForm .myBtnInput {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+body .myFlexContainer .myPublicacionesRegistro {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+}
+body .myFlexContainer .myPublicacionesRegistro .myContenedorDePost {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+body .myFlexContainer .myPublicacionesRegistro .myContenedorDePost .myContenedorRegistroTitulo {
+  font-weight: 800;
+}
+body .myFlexContainer .myPublicacionesRegistro .myContenedorDePost .myBtnEditar {
+  padding: 2px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+body .myFlexContainer .myPublicacionesRegistro .myContenedorDePost .myBtnEliminar {
+  margin: 5px;
+  padding: 2px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .aside1 {
+    display: none;
+  }
+  .discussion-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body .aside1 {
+    width: 25%;
+  }
+  body .discussion-container {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

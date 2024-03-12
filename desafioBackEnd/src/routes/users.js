@@ -5,10 +5,10 @@ const User = require('../models/usersModel')
 
 //CRUS USER, get, post, get, put, delete
 
-router.post('/login', async (req, res)=>{
+router.post('/auth/login', async (req, res)=>{
     try{
-        const {email, password} = req.body
-        const user = await User.findOne({email: email})
+        const {username, password} = req.body
+        const user = await User.findOne({username: username})
         if(!user || !(await User.isvalidPassword(password, user.password))){
             res.status(401).send({message:'Email or password invalid'})
         }
@@ -18,7 +18,7 @@ router.post('/login', async (req, res)=>{
         }
     }
     catch (error){
-       res.status(400).send({message:error})
+    res.status(400).send({message:error})
     }
 })
 
